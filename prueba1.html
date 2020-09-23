@@ -1,0 +1,45 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Prueba</title>
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Regístrate</title>
+        <link rel="stylesheet" href="css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body>
+
+      <form action="index.html" method="post">
+      
+        <h1>Regístrate</h1>
+        
+        <fieldset>
+         
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="user_name">
+
+         
+          
+          <label for="mail" >Email: </label>
+          <input type="email" id="mail" name="user_email">
+          
+           <label>Edad:</label>
+          <input type="radio" id="under_13" value="under_13" name="user_age">
+          <label for="under_13" class="light">Menor a 13 años </label><br>
+          <input type="radio" id="over_13" value="over_13" name="user_age">
+          <label for="over_13" class="light">Mayor a 13 años</label>
+        </fieldset>
+
+
+          <label for="password">Contraseña:</label>
+          <input type="password" id="password" name="user_password">
+          
+        <button type="submit">registrate</button>
+      </form>
+      
+    </body>
+</html>
